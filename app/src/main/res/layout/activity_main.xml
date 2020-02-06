@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back22">
+
+
+    <Button
+        android:id="@+id/srtlrnbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom ="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="115dp"
+        android:layout_marginEnd="75dp"
+        android:text="Learn"
+        android:background="#FFC107"
+        android:onClick="startToLearn"/>
+
+    <Button
+        android:id="@+id/playsrtbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/srtlrnbtn"
+        android:layout_marginBottom="50dp"
+        android:text="PLAY"
+        android:background="#FFC107"
+        android:onClick="startTheGame"/>
+
+    <Button
+        android:id="@+id/extbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bara"
+        android:onClick="letMeOut"/>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.letslearn120.resultshowup"
+    android:background="@drawable/bck1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/scoretxtvw"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            app:srcCompat="@android:drawable/screen_background_dark_transparent"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="112dp" />
+
+        <TextView
+            android:id="@+id/scoretxtvw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/nextQbtn"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="38dp"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="55dp"
+            tools:text="HI"
+            android:textColor="#00796B" />
+
+        <Button
+            android:id="@+id/nextQbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="43dp"
+            android:background="#00796B"
+            android:onClick="Next"
+            android:text="Next"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="411dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
